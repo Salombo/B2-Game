@@ -27,7 +27,7 @@ private:
 public:
     Personnage(int _vie, std::string _nom, int _armure, int _puissance, Classes _classe);
     void print();
-    void upStats();
+//    void upStats();
     void takeDamage(int damage);
     void restoreStat();
     Competence* getCompetence(std:: string name);
@@ -36,9 +36,9 @@ public:
     Action* getAction(std::string name);
     void ajouterAction(Action* action);
     std::vector<Action*> getAllAction();
-    double getVie();
-    double getArmure();
-    double getPuissance();
+    int getVie();
+    int getArmure();
+    int getPuissance();
     bool getAlive();
 };
 

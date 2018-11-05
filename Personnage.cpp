@@ -40,12 +40,12 @@ void Personnage::print(){
     std::cout << "Personnage : " << this->nom << " (Vie: " << this->vie << " | Armure : " << this->armure << " | Puissance : " << this->puissance << " | vieMax : " << this->vieMax << " | Classe : " << cl << ")" << std::endl;
 }
 
-void Personnage::upStats()
+/*void Personnage::upStats()
 {
     this->armure = this->armure * 1.05;
     this->vie = this->vie * 1.1;
     this->puissance = this->puissance * 1.05;
-}
+}*/
 void Personnage::takeDamage(int damage)
 {
     if(this->vie > 0) {
@@ -97,15 +97,15 @@ std::vector<Action*> Personnage::getAllAction()
 {
     return this->tabAction;
 };
-double Personnage::getVie()
+int Personnage::getVie()
 {
     return this->vie;
 }
-double Personnage::getArmure()
+int Personnage::getArmure()
 {
     return this->armure;
 }
-double Personnage::getPuissance()
+int Personnage::getPuissance()
 {
     return this->puissance;
 }
