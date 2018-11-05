@@ -22,10 +22,10 @@ Personnage* GuerrierFactory::create(std::string nom){
     guerrier->ajouterCompetence(energie);
 
     // Ajout des actions
-    DommageGuerrier* dmg = new DommageGuerrier();
-    guerrier->ajouterAction(dmg);
-    GrosDommageGuerrier* grosDmg = new GrosDommageGuerrier();
-    guerrier->ajouterAction(grosDmg);*/
+    DommageGuerrier* dmgGuerrier = new DommageGuerrier();
+    guerrier->ajouterAction(dmgGuerrier);
+    GrosDommageGuerrier* grosDmgGuerrier = new GrosDommageGuerrier();
+    guerrier->ajouterAction(grosDmgGuerrier);*/
 
     return guerrier;
 }
