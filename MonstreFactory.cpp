@@ -15,5 +15,10 @@ MonstreFactory::MonstreFactory(){
 }
 
 Personnage* MonstreFactory::create(std::string nom){
-    return new Personnage(MONSTRE_VIE, nom, MONSTRE_ARMURE, MONSTRE_PUISSANCE, MONSTRE);
+    
+    Personnage* monstre = new Personnage(MONSTRE_VIE, nom, MONSTRE_ARMURE, MONSTRE_PUISSANCE, MONSTRE);
+
+    // Competence de monstre et action
+
+    return monstre;
 }
