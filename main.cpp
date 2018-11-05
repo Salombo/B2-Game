@@ -6,6 +6,8 @@
 //  Copyright © 2018 Adrien LENOIRE. All rights reserved.
 //
 
+// Test de Emilien
+
 #include <iostream>
 #include "Factory.hpp"
 #include "GuerrierFactory.hpp"
