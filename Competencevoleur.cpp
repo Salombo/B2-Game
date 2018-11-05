@@ -5,9 +5,9 @@
 
 using namespace std;
 
-void Competencevoleur::incremente{
+void Competencevoleur::incremente(){
   this->combo += 1;
 };
-void Competencevoleur::decremente{
+void Competencevoleur::decremente(){
   this->combo -= 1;
 };

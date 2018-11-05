@@ -5,9 +5,9 @@
 using namespace std;
 
 
-  void Competenceguerrier::incremente{
-    energie += 1;
+  void Competenceguerrier::incremente(){
+    this->energie += 1;
   };
-  void Competenceguerrier::decremente{
-    energie -= 1;
+  void Competenceguerrier::decremente(){
+    this->energie -= 1;
   };

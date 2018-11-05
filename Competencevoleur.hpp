@@ -12,8 +12,8 @@ private:
   int combo;
 public:
   string getName();
-  void incremente{};
-  void decremente{};
+  void incremente();
+  void decremente();
 };
 
 #endif
