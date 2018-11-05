@@ -15,5 +15,7 @@ GuerrierFactory::GuerrierFactory(){
 }
 
 Personnage* GuerrierFactory::create(std::string nom){
-    return new Personnage(WAR_VIE, nom, WAR_ARMURE, WAR_PUISSANCE, WAR);
+    Personnage* guerrier = new Personnage(WAR_VIE, nom, WAR_ARMURE, WAR_PUISSANCE, WAR);
+    
+    return guerrier;
 }
