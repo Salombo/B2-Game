@@ -25,7 +25,7 @@
 class VoleurFactory : Factory{
 public:
     VoleurFactory();
-    
+
     Personnage* create(std::string nom);
 };
 
