@@ -14,13 +14,15 @@
 #include "Personnage.hpp"
 using namespace std;
 
+class Personnage;
+
 class Action
 {
   private:
 
 
   public:
-    virtual string getNom() const = 0;
+    virtual string getName() = 0;
     virtual void execute(Personnage *emetteur, Personnage *recepteur) = 0;
 
 

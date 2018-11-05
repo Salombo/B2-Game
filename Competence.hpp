@@ -10,5 +10,11 @@
 #define Competence_hpp
 
 #include <stdio.h>
+#include <string>
 
+class Competence {
+public:
+    virtual std::string getName()=0;
+}
+;
 #endif /* Competence_hpp */
