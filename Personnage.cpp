@@ -72,7 +72,9 @@ Competence* Personnage::getCompetence(std:: string name)
             return tabCompetence[i];
         }
     }
-};
+    
+    return NULL;
+}
 void Personnage::ajouterCompetence(Competence* competence)
 {
     this->tabCompetence.push_back(competence);
@@ -88,7 +90,9 @@ Action* Personnage::getAction(std::string name)
             return tabAction[i];
         }
     }
-};
+    
+    return NULL;
+}
 void Personnage::ajouterAction(Action* action)
 {
     this->tabAction.push_back(action);
